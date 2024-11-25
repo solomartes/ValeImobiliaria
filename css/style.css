@@ -1,0 +1,13 @@
+#navbar-color, .dropdown-menu{
+    background-color: #af1616;
+}
+#nav-texto{
+    color: aliceblue;
+}
+#img-bg{
+    position:relative;
+    height: 100%;
+    width: 100%;
+    background: url('bg.png');
+    background-size: cover;
+}
