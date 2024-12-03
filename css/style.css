@@ -4,10 +4,26 @@
 #nav-texto{
     color: aliceblue;
 }
-#img-bg{
-    position:relative;
-    height: 100%;
+#img-bg {
     width: 100%;
-    background: url('bg.png');
-    background-size: cover;
+    height: auto;
+    position: relative;
+  }
+  
+  #card-p {
+    position: absolute;
+    top: 50%;  /* Posiciona verticalmente no meio */
+    left: 50%; /* Posiciona horizontalmente no meio */
+    transform: translate(-50%, -50%); /* Centraliza a posição */
+  }
+  .card-group{
+    width: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+} 
+.card{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color:aliceblue;
 }
