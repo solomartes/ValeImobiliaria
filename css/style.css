@@ -12,8 +12,8 @@
   
   #card-p {
     position: absolute;
-    top: 50%;  /* Posiciona verticalmente no meio */
-    left: 50%; /* Posiciona horizontalmente no meio */
+      top: 50%;  /* Posiciona verticalmente no meio */
+      left: 50%; /* Posiciona horizontalmente no meio */
     transform: translate(-50%, -50%); /* Centraliza a posição */
   }
   .card-group{
